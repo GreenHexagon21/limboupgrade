@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "limbo:camp",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1646201470,
+		"spacing": 20,
+		"separation": 10
+	}
+}

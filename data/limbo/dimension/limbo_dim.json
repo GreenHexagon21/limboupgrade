@@ -1,0 +1,11 @@
+{
+	"type": "limbo:limbo_type",
+	"generator": {
+		"type": "minecraft:noise",
+		"settings": "limbo:limbo_noise_settings",
+		"biome_source": {
+			"type": "minecraft:fixed",
+			"biome": "limbo:isolation"
+		}
+	}
+}

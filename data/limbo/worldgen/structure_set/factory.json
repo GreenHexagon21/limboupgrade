@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "limbo:factory",
+      "weight": 100
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1646208470,
+    "spacing": 15,
+    "separation": 5
+  }
+}

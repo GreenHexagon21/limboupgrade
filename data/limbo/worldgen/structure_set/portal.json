@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "limbo:portal",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1696542275,
+		"spacing": 120,
+		"separation": 60
+	}
+}
