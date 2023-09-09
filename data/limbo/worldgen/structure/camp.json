@@ -4,8 +4,8 @@
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-	"start_pool": "limbo:camp",
-	"size": 1,
+	"start_pool": "limbo:camp_base",
+	"size": 4,
 	"start_height": {
 		"absolute": 0
 	},
