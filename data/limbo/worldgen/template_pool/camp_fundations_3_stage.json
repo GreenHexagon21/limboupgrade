@@ -7,7 +7,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_stage_3_cross",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -16,7 +16,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_stage_3_cross_with_structure",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -25,7 +25,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_stage_3_line",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -34,7 +34,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_stage_3_line_with_structure",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -43,7 +43,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_stage_3_turn",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -52,7 +52,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_stage_3_turn_with_structure",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -61,7 +61,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_stage_3_way",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -70,7 +70,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_stage_3_way_with_structure",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  }
 	]

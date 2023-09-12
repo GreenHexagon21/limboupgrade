@@ -1,5 +1,5 @@
 {
-	"fallback": "minecraft:empty",
+	"fallback": "limbo:camp_proc",
 	"elements": [
 	  {
 		"weight": 100,
@@ -7,7 +7,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_level_3_battlement",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -16,7 +16,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_level_3_keep",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -25,7 +25,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_level_3_keep_2",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -34,7 +34,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_level_3_minimal",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  },
 	  {
@@ -43,7 +43,7 @@
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:camp_level_3_ruin",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:camp_proc"
 		}
 	  }
 	]
