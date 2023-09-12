@@ -1,5 +1,5 @@
 {
-	"fallback": "limbo:camp_proc",
+	"fallback": "minecraft:empty",
 	"elements": [
 	  {
 		"weight": 100,

@@ -3,6 +3,10 @@
 		{
 			"structure": "limbo:camp",
 			"weight": 1
+		},
+		{
+			"structure": "limbo:camp_old",
+			"weight": 1
 		}
 	],
 	"placement": {
