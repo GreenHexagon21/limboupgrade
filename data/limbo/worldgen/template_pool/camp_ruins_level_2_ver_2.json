@@ -24,7 +24,7 @@
 		"element": {
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
-		  "location": "limbo:camp_stage_2_top_to_bottom",
+		  "location": "limbo:camp_level_3_ver_2_roof_plus",
 		  "processors": "minecraft:empty"
 		}
 	  }
