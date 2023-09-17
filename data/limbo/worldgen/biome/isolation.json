@@ -13,10 +13,12 @@
 			"sound_id": "extrasounds:ambient.limbo.loop"
 		},
 		"music": {
-			"sound": "extrasounds:action.bow",
+			"sound": {
+				"sound_id":"extrasounds:music.limbo"
+			},
 			"min_delay": 6000,
 			"max_delay": 16000,
-			"replace_current_music": true
+			"replace_current_music": false
 		},
 		"particle": {
 			"options": {
