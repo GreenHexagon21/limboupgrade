@@ -5,7 +5,7 @@
 		{
 			"weight": 2,
 			"element": {
-				"element_type": "minecraft:legacy_single_pool_element",
+				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "limbo:shaman_hut",
 				"processors": "minecraft:empty"
@@ -14,7 +14,7 @@
 		{
 			"weight": 3,
 			"element": {
-				"element_type": "minecraft:legacy_single_pool_element",
+				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "limbo:smith_hut",
 				"processors": "minecraft:empty"
@@ -23,10 +23,10 @@
 		{
 			"weight": 4,
 			"element": {
-				"element_type": "minecraft:legacy_single_pool_element",
+				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "limbo:herbalist_hut",
-				"processors": "minecraft:empty"
+				"processors": "limbo:hut_gravel_proc"
 			}
 		},
 		{

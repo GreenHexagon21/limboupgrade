@@ -16,7 +16,7 @@
 			"sound": {
 				"sound_id":"extrasounds:music.limbo"
 			},
-			"min_delay": 6000,
+			"min_delay": 600,
 			"max_delay": 16000,
 			"replace_current_music": false
 		},
