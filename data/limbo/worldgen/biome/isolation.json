@@ -7,8 +7,8 @@
 		"fog_color": 16448250,
 		"water_color": 16777215,
 		"water_fog_color": 16777215,
-		"grass_color": 0,
-		"foliage_color": 0,
+		"grass_color": 1315860,
+		"foliage_color": 1315860,
 		"ambient_sound": {
 			"sound_id": "extrasounds:ambient.limbo.loop"
 		},

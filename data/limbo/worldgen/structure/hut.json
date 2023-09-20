@@ -5,7 +5,7 @@
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
 	"start_pool": "limbo:hut",
-	"size": 1,
+	"size": 7,
 	"start_height": {
 		"absolute": 0
 	},

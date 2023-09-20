@@ -20,15 +20,6 @@
 		}
 	  },
 	  {
-		"weight": 3,
-		"element": {
-		  "element_type": "minecraft:single_pool_element",
-		  "projection": "rigid",
-		  "location": "limbo:smith_hut",
-		  "processors": "minecraft:empty"
-		}
-	  },
-	  {
 		"weight": 2,
 		"element": {
 		  "element_type": "minecraft:single_pool_element",
@@ -47,11 +38,29 @@
 		}
 	  },
 	  {
-		"weight": 5,
+		"weight": 2,
 		"element": {
 		  "element_type": "minecraft:single_pool_element",
 		  "projection": "rigid",
-		  "location": "limbo:scavenger_hut",
+		  "location": "limbo:hut_scavenger_1",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_scavenger_2",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 2,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_scavenger_3",
 		  "processors": "minecraft:empty"
 		}
 	  }

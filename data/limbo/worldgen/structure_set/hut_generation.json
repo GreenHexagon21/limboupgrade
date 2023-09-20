@@ -2,7 +2,7 @@
 	"structures": [
 	  {
 		"structure": "limbo:hut",
-		"weight": 1
+		"weight": 4
 	  },
 	  {
 		"structure": "limbo:hut_new",

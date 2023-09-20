@@ -2,7 +2,7 @@
 	"structures": [
 		{
 			"structure": "limbo:camp",
-			"weight": 1
+			"weight": 2
 		},
 		{
 			"structure": "limbo:camp_old",
@@ -12,7 +12,7 @@
 	"placement": {
 		"type": "minecraft:random_spread",
 		"salt": 1646201450,
-		"spacing": 20,
+		"spacing": 15,
 		"separation": 10
 	}
 }
