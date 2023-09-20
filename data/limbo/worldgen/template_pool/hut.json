@@ -1,51 +1,60 @@
 {
-	"name": "limbo:hut",
 	"fallback": "minecraft:empty",
 	"elements": [
-		{
-			"weight": 2,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "limbo:shaman_hut",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 3,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "limbo:smith_hut",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 4,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "limbo:herbalist_hut",
-				"processors": "limbo:hut_gravel_proc"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "limbo:enchanter_hut",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "limbo:scavenger_hut",
-				"processors": "minecraft:empty"
-			}
+	  {
+		"weight": 2,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_herbalist_1_aboveground",
+		  "processors": "limbo:hut_gravel_proc"
 		}
+	  },
+	  {
+		"weight": 2,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:shaman_hut",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 3,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:smith_hut",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 2,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:hut_herbalist_2_aboveground",
+		  "processors": "limbo:hut_gravel_proc"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:enchanter_hut",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 5,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "limbo:scavenger_hut",
+		  "processors": "minecraft:empty"
+		}
+	  }
 	]
-}
+  }
+  
