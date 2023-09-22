@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cod_bucket"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing/fish"
+  }
+  

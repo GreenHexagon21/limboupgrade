@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "limbo:gameplay/fishing_old",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "minecraft:overworld"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "limbo:gameplay/fishing_limbo",
+            "conditions": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "limbo:limbo_dim"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing"
+  }
+  
