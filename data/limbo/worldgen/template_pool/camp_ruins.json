@@ -108,6 +108,15 @@
 		  "location": "limbo:camp_level_2_coop",
 		  "processors": "limbo:camp_proc"
 		}
+	},
+	{
+	  "weight": 3,
+	  "element": {
+		"element_type": "minecraft:legacy_single_pool_element",
+		"projection": "rigid",
+		"location": "limbo:camp_level_2_tree",
+		"processors": "limbo:camp_proc"
+	  }
 	}
 	]
   }
