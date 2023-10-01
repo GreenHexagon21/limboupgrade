@@ -16,7 +16,7 @@
 		  "element_type": "minecraft:single_pool_element",
 		  "projection": "rigid",
 		  "location": "limbo:shaman_hut",
-		  "processors": "minecraft:empty"
+		  "processors": "limbo:hut_gravel_proc"
 		}
 	  },
 	  {
@@ -29,7 +29,7 @@
 		}
 	  },
 	  {
-		"weight": 1,
+		"weight": 2,
 		"element": {
 		  "element_type": "minecraft:single_pool_element",
 		  "projection": "rigid",
