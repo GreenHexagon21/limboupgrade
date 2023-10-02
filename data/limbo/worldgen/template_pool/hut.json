@@ -15,7 +15,7 @@
 		"element": {
 		  "element_type": "minecraft:single_pool_element",
 		  "projection": "rigid",
-		  "location": "limbo:shaman_hut",
+		  "location": "limbo:hut_shaman_1",
 		  "processors": "limbo:hut_gravel_proc"
 		}
 	  },
