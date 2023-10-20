@@ -2,8 +2,8 @@
 	"type": "minecraft:random_patch",
 	"config": {
 	  "tries": 32,
-	  "xz_spread": 6,
-	  "y_spread": 6,
+	  "xz_spread": 7,
+	  "y_spread": 3,
 	  "feature": {
 		"feature": {
 		  "type": "minecraft:simple_block",
@@ -12,33 +12,15 @@
 			  "type": "minecraft:weighted_state_provider",
 			  "entries": [
 				{
-				  "weight": 120,
+				  "weight": 3,
 				  "data": {
 					"Name": "minecraft:grass"
 				  }
 				},
 				{
-				  "weight": 20,
-				  "data": {
-					"Name": "minecraft:fern"
-				  }
-				},
-				{
-				  "weight": 40,
-				  "data": {
-					"Name": "minecraft:tall_grass"
-				  }
-				},
-				{
-				  "weight": 4,
-				  "data": {
-					"Name": "minecraft:large_fern"
-				  }
-				},
-				{
 				  "weight": 1,
 				  "data": {
-					"Name": "minecraft:wither_rose"
+					"Name": "minecraft:fern"
 				  }
 				}
 			  ]
@@ -56,13 +38,16 @@
 				  "blocks": "minecraft:air"
 				},
 				{
-				  "type": "minecraft:matching_blocks",
-				  "offset": [
-					0,
-					-1,
-					0
-				  ],
-				  "blocks": "minecraft:black_concrete_powder"
+				  "type": "minecraft:not",
+				  "predicate": {
+					"type": "minecraft:matching_blocks",
+					"offset": [
+					  0,
+					  -1,
+					  0
+					],
+					"blocks": "minecraft:podzol"
+				  }
 				}
 			  ]
 			}

@@ -98,17 +98,13 @@
 	},
 	"features": [
 		[
-			"minecraft:acacia",
-			"limbo:grass"
 		],
 		[
-			"limbo:grass",
 			"limbo:piler"
 		],
 		[],
 		[],
 		[
-			"minecraft:acacia"
 		],
 		[],
 		[],
@@ -121,8 +117,7 @@
 			"limbo:ct_placed_feature"
 		],
 		[
-			"limbo:st_placed_feature",
-			"minecraft:acacia"
+			"limbo:st_placed_feature"
 		]
 	],
 	"has_precipitation": false
