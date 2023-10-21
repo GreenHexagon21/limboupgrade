@@ -1,11 +1,37 @@
 {
 	"type": "limbo:limbo_type",
 	"generator": {
-		"type": "minecraft:noise",
-		"settings": "limbo:limbo_noise_settings",
-		"biome_source": {
-			"type": "minecraft:fixed",
-			"biome": "limbo:isolation"
-		}
+	  "type": "minecraft:noise",
+	  "settings": "limbo:limbo_noise_settings",
+	  "biome_source": {
+		"type": "minecraft:multi_noise",
+		"biomes": [
+		  {
+			"biome": "limbo:isolation",
+			"parameters": {
+			  "temperature": 0,
+			  "humidity": 0,
+			  "continentalness": 0,
+			  "erosion": 0,
+			  "weirdness": 0,
+			  "depth": 0,
+			  "offset": 0
+			}
+		  },
+		  {
+			"biome": "limbo:despair",
+			"parameters": {
+			  "temperature": 0.4,
+			  "humidity": 0,
+			  "continentalness": 0,
+			  "erosion": 0.1,
+			  "weirdness": 0,
+			  "depth": 0.1,
+			  "offset": 0
+			}
+		  }
+		]
+	  }
 	}
-}
+  }
+  
