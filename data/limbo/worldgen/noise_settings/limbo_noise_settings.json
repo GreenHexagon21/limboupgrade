@@ -412,6 +412,31 @@
 		  }
 		},
 		{
+			"type": "minecraft:condition",
+			"if_true": {
+			  "type": "minecraft:biome",
+			  "biome_is": [
+				"limbo:blossom"
+			  ]
+			},
+			"then_run": {
+			  "type": "minecraft:condition",
+			  "if_true": {
+				"type": "minecraft:stone_depth",
+				"offset": -2,
+				"surface_type": "floor",
+				"add_surface_depth": true,
+				"secondary_depth_range": 1
+			  },
+			  "then_run": {
+				"type": "minecraft:block",
+				"result_state": {
+				  "Name": "minecraft:white_concrete_powder"
+				}
+			  }
+			}
+		  },
+		{
 		  "type": "minecraft:condition",
 		  "if_true": {
 			"type": "minecraft:vertical_gradient",

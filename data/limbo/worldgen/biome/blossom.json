@@ -17,9 +17,9 @@
 	  },
 	  "particle": {
 		"options": {
-		  "type": "wax_off"
+		  "type": "instant_effect"
 		},
-		"probability": 0.1
+		"probability": 0.001
 	  }
 	},
 	"spawners": {
@@ -70,14 +70,11 @@
 	  [],
 	  [],
 	  [
-		"limbo:st_placed_feature"
 	  ],
 	  [
-		"limbo:st_placed_feature",
-		"limbo:ct_placed_feature"
 	  ],
 	  [
-		"limbo:st_placed_feature"
+
 	  ]
 	]
   }

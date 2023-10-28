@@ -8,8 +8,8 @@
 	  "fog_color": 16448250,
 	  "water_color": 16777215,
 	  "water_fog_color": 16777215,
-	  "grass_color": 1315860,
-	  "foliage_color": 1315860,
+	  "grass_color": 15263976,
+	  "foliage_color": 15592941,
 	  "music": {
 		"min_delay": 600,
 		"max_delay": 16000,
@@ -17,9 +17,9 @@
 	  },
 	  "particle": {
 		"options": {
-		  "type": "wax_off"
+		  "type": "instant_effect"
 		},
-		"probability": 0.1
+		"probability": 0.01
 	  }
 	},
 	"spawners": {
@@ -70,15 +70,10 @@
 	  [],
 	  [],
 	  [
-		"limbo:st_placed_feature"
+		"limbo:hope_tree"
 	  ],
-	  [
-		"limbo:st_placed_feature",
-		"limbo:ct_placed_feature"
-	  ],
-	  [
-		"limbo:st_placed_feature"
-	  ]
+	  [],
+	  []
 	]
   }
   
