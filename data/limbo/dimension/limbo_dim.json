@@ -10,11 +10,71 @@
 			  "parameters": {
 				"weirdness": [
 				  -1,
-				  1
+				  -0.05
 				],
 				"continentalness": [
 				  -1.2,
-				  -1.05
+				  -1.195
+				],
+				"erosion": [
+				  -1,
+				  -0.78
+				],
+				"temperature": [
+				  -1,
+				  1
+				],
+				"humidity": [
+				  -1,
+				  1
+				],
+				"depth": [
+				  0,
+				  1.1
+				],
+				"offset": 0
+			  },
+			  "biome": "limbo:blossom"
+			},
+			{
+			  "parameters": {
+				"weirdness": [
+				  -1,
+				  -0.05
+				],
+				"continentalness": [
+				  -1.2,
+				  -1.06
+				],
+				"erosion": [
+				  -0.78,
+				  1
+				],
+				"temperature": [
+				  -1,
+				  1
+				],
+				"humidity": [
+				  -1,
+				  1
+				],
+				"depth": [
+				  0,
+				  1.1
+				],
+				"offset": 0
+			  },
+			  "biome": "limbo:hope"
+			},
+			{
+			  "parameters": {
+				"weirdness": [
+				  -1,
+				  1
+				],
+				"continentalness": [
+				  -1.195,
+				  -1.06
 				],
 				"erosion": [
 				  -1,
@@ -43,8 +103,8 @@
 				  1
 				],
 				"continentalness": [
-				  -1.05,
-				  -0.19
+				  -1.06,
+				  -0.455
 				],
 				"erosion": [
 				  -1,
@@ -73,8 +133,8 @@
 				  1
 				],
 				"continentalness": [
-				  -0.19,
-				  -0.11
+				  -0.455,
+				  -0.355
 				],
 				"erosion": [
 				  -1,
@@ -103,7 +163,7 @@
 				  1
 				],
 				"continentalness": [
-				  -0.11,
+				  -0.355,
 				  1
 				],
 				"erosion": [
@@ -125,6 +185,66 @@
 				"offset": 0
 			  },
 			  "biome": "limbo:isolation"
+			},
+			{
+			  "parameters": {
+				"weirdness": [
+				  -0.05,
+				  1
+				],
+				"continentalness": [
+				  -1.2,
+				  -1.06
+				],
+				"erosion": [
+				  -1,
+				  -0.78
+				],
+				"temperature": [
+				  -1,
+				  1
+				],
+				"humidity": [
+				  -1,
+				  1
+				],
+				"depth": [
+				  0,
+				  1.1
+				],
+				"offset": 0
+			  },
+			  "biome": "limbo:hope"
+			},
+			{
+			  "parameters": {
+				"weirdness": [
+				  -0.05,
+				  1
+				],
+				"continentalness": [
+				  -1.2,
+				  -1.195
+				],
+				"erosion": [
+				  -0.78,
+				  1
+				],
+				"temperature": [
+				  -1,
+				  1
+				],
+				"humidity": [
+				  -1,
+				  1
+				],
+				"depth": [
+				  0,
+				  1.1
+				],
+				"offset": 0
+			  },
+			  "biome": "limbo:blossom"
 			}
 		  ]
 	  }

@@ -6,10 +6,10 @@
 	"effects": {
 	  "sky_color": 9737364,
 	  "fog_color": 16448250,
-	  "water_color": 16777215,
-	  "water_fog_color": 16777215,
-	  "grass_color": 1315860,
-	  "foliage_color": 1315860,
+	  "water_color": 8183795,
+	  "water_fog_color": 7842813,
+	  "grass_color": 6605330,
+	  "foliage_color": 6736896,
 	  "music": {
 		"min_delay": 600,
 		"max_delay": 16000,

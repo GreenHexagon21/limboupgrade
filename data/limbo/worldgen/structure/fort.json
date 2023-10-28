@@ -1,6 +1,9 @@
 {
 	"type": "minecraft:jigsaw",
-	"biomes": "limbo:isolation",
+	"biomes": [
+		"limbo:isolation",
+		"limbo:change"
+	  ],
 	"step": "raw_generation",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_box",
