@@ -38,12 +38,7 @@
 		"xz_scale": 1,
 		"y_scale": 0.7142857142857143
 	  },
-	  "lava": {
-		"type": "minecraft:noise",
-		"noise": "minecraft:aquifer_lava",
-		"xz_scale": 1,
-		"y_scale": 1
-	  },
+	  "lava": 0,
 	  "temperature": {
 		"type": "minecraft:shifted_noise",
 		"noise": "minecraft:temperature",
@@ -412,30 +407,30 @@
 		  }
 		},
 		{
+		  "type": "minecraft:condition",
+		  "if_true": {
+			"type": "minecraft:biome",
+			"biome_is": [
+			  "limbo:blossom"
+			]
+		  },
+		  "then_run": {
 			"type": "minecraft:condition",
 			"if_true": {
-			  "type": "minecraft:biome",
-			  "biome_is": [
-				"limbo:blossom"
-			  ]
+			  "type": "minecraft:stone_depth",
+			  "offset": -2,
+			  "surface_type": "floor",
+			  "add_surface_depth": true,
+			  "secondary_depth_range": 1
 			},
 			"then_run": {
-			  "type": "minecraft:condition",
-			  "if_true": {
-				"type": "minecraft:stone_depth",
-				"offset": -2,
-				"surface_type": "floor",
-				"add_surface_depth": true,
-				"secondary_depth_range": 1
-			  },
-			  "then_run": {
-				"type": "minecraft:block",
-				"result_state": {
-				  "Name": "minecraft:white_concrete_powder"
-				}
+			  "type": "minecraft:block",
+			  "result_state": {
+				"Name": "minecraft:white_concrete_powder"
 			  }
 			}
-		  },
+		  }
+		},
 		{
 		  "type": "minecraft:condition",
 		  "if_true": {
