@@ -13,7 +13,7 @@
 	"logical_height": 384,
 	"effects": "minecraft:the_nether",
 	"infiniburn": "#minecraft:infiniburn_overworld",
-	"min_y": -64,
+	"min_y": -48,
 	"height": 384,
 	"monster_spawn_light_level": {
 		"type": "minecraft:uniform",
