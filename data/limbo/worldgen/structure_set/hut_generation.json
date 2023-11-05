@@ -2,17 +2,17 @@
 	"structures": [
 	  {
 		"structure": "limbo:hut",
-		"weight": 5
+		"weight": 40
 	  },
 	  {
 		"structure": "limbo:hut_new",
-		"weight": 1
+		"weight": 10
 	  }
 	],
 	"placement": {
 	  "type": "minecraft:random_spread",
 	  "salt": 1646208470,
-	  "spacing": 9,
+	  "spacing": 10,
 	  "separation": 5
 	}
   }
