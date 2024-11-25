@@ -4,7 +4,7 @@
 		"limbo:isolation",
 		"limbo:change"
 	  ],
-	"step": "raw_generation",
+	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_box",
 	"start_pool": "limbo:fort",
