@@ -10,13 +10,9 @@
 	  "water_fog_color": 16777215,
 	  "grass_color": 1315860,
 	  "foliage_color": 1315860,
-	  "ambient_sound": {
-		"sound_id": "extrasounds:ambient.limbo.loop"
-	  },
+	  "ambient_sound": "extrasounds:ambient.limbo.loop",
 	  "music": {
-		"sound": {
-		  "sound_id": "extrasounds:music.limbo"
-		},
+		"sound": "extrasounds:music.limbo",
 		"min_delay": 600,
 		"max_delay": 16000,
 		"replace_current_music": false
@@ -88,10 +84,7 @@
 		"charge": 3
 	  }
 	},
-	"carvers": [
-	  "minecraft:canyon",
-	  "minecraft:cave"
-	],
+	"carvers": {},
 	"features": [
 	  [],
 	  [
