@@ -1,42 +1,13 @@
 {
-	"feature": "limbo:smaller_tree",
+	"feature": "limbo:cut_tree",
 	"placement": [
 	  {
-		"type": "minecraft:count",
+		"type": "minecraft:count_on_every_layer",
 		"count": {
 		  "type": "minecraft:uniform",
-		  "min_inclusive": 3,
-		  "max_inclusive": 4
+		  "min_inclusive": 1,
+		  "max_inclusive": 3
 		}
-	  },
-	  {
-		"type": "minecraft:random_offset",
-		"xz_spread": {
-		  "type": "minecraft:weighted_list",
-		  "distribution": [
-			{
-			  "weight": 1,
-			  "data": {
-				"type": "minecraft:uniform",
-				"min_inclusive": -5,
-				"max_inclusive": 0
-			  }
-			},
-			{
-			  "weight": 1,
-			  "data": {
-				"type": "minecraft:uniform",
-				"min_inclusive": 0,
-				"max_inclusive": 5
-			  }
-			},
-			{
-			  "weight": 1,
-			  "data": 0
-			}
-		  ]
-		},
-		"y_spread": 0
 	  },
 	  {
 		"type": "minecraft:heightmap",
