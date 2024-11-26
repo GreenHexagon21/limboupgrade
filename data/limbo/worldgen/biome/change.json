@@ -110,10 +110,6 @@
 		[],
 		[],
 		[
-			"limbo:st_placed_feature"
-		],
-		[
-			"limbo:st_placed_feature",
 			"limbo:ct_placed_feature"
 		],
 		[
