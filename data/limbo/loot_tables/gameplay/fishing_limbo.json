@@ -7,6 +7,19 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:acacia_door",
+          "weight": 100,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biome": "limbo:dread"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:player_head",
           "functions": [

@@ -6,7 +6,7 @@
 		"element": {
 		  "element_type": "minecraft:legacy_single_pool_element",
 		  "projection": "rigid",
-		  "location": "7x7_cog_half",
+		  "location": "limbo:7x7_cog_half",
 		  "processors": "limbo:camp_proc"
 		}
 	  },
