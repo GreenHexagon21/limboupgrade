@@ -10,11 +10,17 @@
 	  "water_fog_color": 7842813,
 	  "grass_color": 6605330,
 	  "foliage_color": 6736896,
-	  "music": {
+	  "ambient_sound": {
+		"sound_id": "extrasounds:ambient.limbo.loop"
+	},
+	"music": {
+		"sound": {
+			"sound_id":"extrasounds:music.limbo"
+		},
 		"min_delay": 600,
 		"max_delay": 16000,
 		"replace_current_music": false
-	  },
+	},
 	  "particle": {
 		"options": {
 		  "type": "instant_effect"
