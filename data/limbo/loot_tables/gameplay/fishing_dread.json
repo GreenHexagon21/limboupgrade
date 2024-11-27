@@ -7,8 +7,33 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "weight": 70,
-            "name": "minecraft:cod_bucket"
+            "name": "minecraft:bone",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_scrap",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:kelp",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wither_skeleton_skull",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:skeleton_skull"
           }
         ]
       }

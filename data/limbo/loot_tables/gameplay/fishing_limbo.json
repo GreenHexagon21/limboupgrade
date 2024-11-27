@@ -6,9 +6,9 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:acacia_door",
-          "weight": 100,
+          "type": "minecraft:loot_table",
+          "name": "limbo:gameplay/fishing_dread",
+          "weight": 700,
           "conditions": [
             {
               "condition": "minecraft:location_check",

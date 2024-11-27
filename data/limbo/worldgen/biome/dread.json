@@ -4,8 +4,8 @@
 	"has_precipitation": false,
 	"creature_spawn_probability": 0.2,
 	"effects": {
-	  "sky_color": 9737364,
-	  "fog_color": 16448250,
+	  "sky_color": 8882055,
+	  "fog_color": 8882055,
 	  "water_color": 16777215,
 	  "water_fog_color": 16777215,
 	  "grass_color": 1315860,
