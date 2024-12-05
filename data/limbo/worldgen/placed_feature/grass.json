@@ -1,5 +1,5 @@
 {
-	"feature": "minecraft:bamboo_vegetation",
+	"feature": "limbo:grass",
 	"placement": [
 	  {
 		"type": "minecraft:count",
@@ -30,4 +30,3 @@
 	  }
 	]
   }
-  
